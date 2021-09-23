@@ -9,35 +9,38 @@
     <title>Challenge 4</title>
   </head>
   <body>
-    <main>
+    <main class="container">
       <div class="top">
         <h3>Bem vindo de volta</h3>
         <h1>Faça login na sua conta</h1>
       </div>
 
-      <form action="form">
+      <form action="form" class="form">
         <div class="text">
-          <label for="Email">Email</label>
+          <label for="Email">E-mail</label>
           <input type="text" />
           <label for="Senha">Senha</label>
           <input type="password" />
         </div>
 
-        <div class="check">
-          <label for="checkbox">
-            <input type="checkbox" name="Remember" id="Remember" />
-            Lembra de mim
-          </label>
+        <div class="check-pass">
+          <div class="check">
+            <input
+              type="checkbox"
+              name="Remember"
+              id="Remember"
+              class="remember"
+            />
+            <label for="Remember"> Lembra de mim </label>
+          </div>
           <a href="#"><p>Esqueceu sua senha?</p></a>
         </div>
 
-        <div class="button">
-          <button>Entrar</button>
-          <button type="submit">
-            <i><img src="/image/iconfinder_Google_1298745 1.svg" alt="" /></i>
-            <p>Ou faça login com o Google</p>
-          </button>
-        </div>
+        <button class="button-1">Entrar</button>
+        <button type="submit" class="button-2">
+          <i><img src="/image/iconfinder_Google_1298745 1.svg" alt="" /></i>
+          <p>Ou faça login com o Google</p>
+        </button>
       </form>
     </main>
     <footer>

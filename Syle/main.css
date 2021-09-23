@@ -1,0 +1,130 @@
+/* Mobile Version */
+/* ############## */
+
+/* Acessibility */
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+/* Parte do topo */
+
+.top {
+  margin-top: 71px;
+}
+
+.top h1 {
+  font-size: 26px;
+  margin-bottom: 28px;
+}
+
+.top h3 {
+  font-size: 1rem;
+  margin-bottom: -7px;
+  font-weight: normal;
+}
+
+/* Campo de Formulário */
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.text label {
+  margin-bottom: 11px;
+  margin-top: 11px;
+  font-size: 16px;
+}
+
+.text input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #e8e8e8;
+}
+
+/* Botão Check */
+
+.check-pass {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 17px;
+}
+
+.check-pass a {
+  text-decoration: none;
+  color: #2b6cb0;
+}
+
+.check {
+  display: flex;
+  justify-content: center;
+}
+
+.check label {
+  cursor: pointer;
+  margin-left: 11px;
+}
+
+.remember {
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #ebebeb;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 1px solid #a8a8a8;
+}
+
+.remember:checked {
+  background-color: #04c35c;
+  border: 3px solid #a8a8a8;
+}
+
+/* Botões principais */
+button {
+  border: none;
+  border-radius: 5px;
+}
+
+.button-1 {
+  background: #04c35c;
+  padding: 15px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.button-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a202c;
+  color: white;
+}
+
+.button-2 p {
+  margin-left: 11px;
+}
+
+/* Rodapé */
+
+footer {
+  text-align: center;
+  margin-top: 138px;
+  margin-bottom: 52px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #2b6cb0;
+}
