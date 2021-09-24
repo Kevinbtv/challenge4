@@ -79,12 +79,14 @@ form {
 input[type='checkbox'] {
   outline: none;
   appearance: none;
+  -webkit-appearance: none;
   width: 35px;
   height: 15px;
   background-color: #c6c6c6;
   border-radius: 10px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2) inset;
   position: relative;
+  /* display: none; */
 }
 
 input:checked[type='checkbox'] {
